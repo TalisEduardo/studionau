@@ -53,17 +53,28 @@
 
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 					
-					<div class="carousel-inner">
+					<div class="carousel-inner" style="max-width: 100%;">
 						<div class="carousel-item active">
-							<img class="d-block w-100" src="./assets/images/studio3.jpeg" 
-							alt="First slide" style="filter: contrast(1.4); -webkit-filter:constrast(1.4); opacity:0.35; max-height:auto;"  width="100%" height="auto">
-						</div>
-						<!--<div class="carousel-item">
-							<img class="d-block w-100" src="./assets/images/studio2.jpeg" alt="Second slide" style="opacity:0.4; max-height:auto;"  width="100%" height="auto">
+							<img class="d-block w-100" src="./assets/images/studio3.jpeg" alt="First slide">
 						</div>
 						<div class="carousel-item">
-							<img class="d-block w-100" src="./assets/images/studio1.jpeg" alt="Third slide" style="opacity:0.4; max-height:auto;"  width="100%" height="auto">
-						</div>-->
+							<img class="d-block w-100" src="./assets/images/studio4.jpeg" alt="Second slide">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="./assets/images/studio5.jpeg" alt="Third slide">
+						</div>
+						
+						<div class="carousel-item">
+							<img class="d-block w-100" src="./assets/images/studio6.jpeg" alt="Fourth slide">
+						</div>
+						
+						<div class="carousel-item">
+							<img class="d-block w-100" src="./assets/images/studio7.jpeg" alt="Fifth slide">
+						</div>
+						
+						<div class="carousel-item">
+							<img class="d-block w-100" src="./assets/images/studio8.jpg" alt="Sixth slide">
+						</div>
 					</div>
 				</div>
 		
@@ -79,13 +90,27 @@
 		
 		<div id="new-releases2" class="new-releases container" style="margin-top:50px;">
 
-			<!--AQUI REPLICA POR MUSICA-->
-			<span class="label label-default" style="color:white; font-size:15px;">Ricardo Silva - Habitar</span>
-			<audio class="audio" style="width:100%;"  controlsList="nodownload" controls>
-				<source src="assets/audio/habitar.wav" type="audio/wav">
+			<audio id="audio" tabindex="0" controls="" type="audio/wav" style="width:100%;" controlsList="nodownload">
+				<source type="audio/wav" >
+				Sorry, your browser does not support HTML5 audio.
 			</audio>
 
 			<br><br>
+			<ul id="playlist">
+				<li class="active"><a href="assets/audio/habitar.wav">Ricardo Silva - Habitar</a></li>
+				<li><a href="assets/audio/takeitaway.wav">Luf Mayr - Take it all away</a></li>
+				<li><a href="assets/audio/princess.wav">Luf Mayr - Princess of my garden</a></li>
+				<li><a href="assets/audio/letitflow.wav">Luf Mayr - Let it flow</a></li>
+				<li><a href="assets/audio/inyourarms.wav">Luf Mayr - In your arms</a></li>
+				<li><a href="assets/audio/aprendendoaviver.wav">Luf Mayr - Aprendendo a viver ft. Venus Vs. Marte</a></li>
+				<li><a href="assets/audio/iwannago.wav">Legacy - I wanna go</a></li>
+				<li><a href="assets/audio/dontask.wav">Legacy - Don't ask me why</a></li>
+				<li><a href="assets/audio/pensebem.wav">Kevin Nau - Pense bem João</a></li>
+				<li><a href="assets/audio/desegunda.wav">Kevin Nau - De segunda a segunda!</a></li>
+				<li><a href="assets/audio/deboa.wav">Deeroots - De boa na lagoa!</a></li>
+			</ul>
+		
+			<br>
 
 			<div style="margin-top:150px;">
 				<center>
@@ -144,8 +169,8 @@
 					</center>
 				</div>
 			</div>
-
-			<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+			
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 			<script type="text/javascript" src="assets/js/main.js"></script>
 			<script type="text/javascript" src="assets/bootstrap/js/bootstrap.js"></script>
 	</body>

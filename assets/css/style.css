@@ -118,8 +118,7 @@ p {
 }
 a {
   font-family: 'Archivo';
-  text-transform: uppercase;
-  font-size: 14px;
+  font-size: 15px;
   font-style:bold;  
   font-weight: 700;
 }
@@ -503,6 +502,16 @@ margin-top:80px;
   height: 100px;
 
 }
+
+img {
+  max-width:100%;
+  filter: contrast(1.4); 
+  -webkit-filter:constrast(1.4); 
+  opacity:0.45;  
+  width: 100%;
+  height: auto;
+}
+
 /*--------------------------------------------------------------
 11.0 - Social
 --------------------------------------------------------------*/
